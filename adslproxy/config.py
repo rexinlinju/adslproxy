@@ -18,10 +18,10 @@ CLIENT_NAME = 'adsl1'
 ADSL_IFNAME = 'ppp0'
 
 # Redis数据库IP
-REDIS_HOST = 'localhost'
+REDIS_HOST = '104.156.238.91'
 
 # Redis数据库密码, 如无则填None
-REDIS_PASSWORD = 'foobared'
+REDIS_PASSWORD = 'None'
 
 # Redis数据库端口
 REDIS_PORT = 6379
@@ -29,11 +29,3 @@ REDIS_PORT = 6379
 # 代理池键名
 PROXY_KEY = 'adsl'
 
-# 测试URL
-TEST_URL = 'http://www.baidu.com'
-
-# 测试超时时间
-TEST_TIMEOUT = 20
-
-# API端口
-API_PORT = 8000
